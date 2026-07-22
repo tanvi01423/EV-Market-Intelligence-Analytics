@@ -155,5 +155,17 @@ EV-Market-Intelligence-Analytics/
 - Battery Demand Prediction
 - Interactive Web Dashboard
 
-- images/README.md
+  ## Dashboard Preview
+
+### Indian EV market Dashboard
+![Dashboard 1](Screenshot%202026-01-01%20162537.png)
+
+### Recovery rate and cost savings on Minerals 
+![Dashboard 2](Screenshot%202025-12-30%20121105.png)
+
+### Cost share of various components
+![Dashboard 3](Screenshot%202025-12-30%20152143.png)
+
+### Profit margin
+![Dashboard 4](Screenshot%202025-12-28%20215916.png)
   
