@@ -1,5 +1,13 @@
 # EV Market Intelligence Analytics
 
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-Data%20Analysis-217346?logo=microsoftexcel&logoColor=white)
+![Market Research](https://img.shields.io/badge/Market-Research-blue)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-purple)
+![Data Visualization](https://img.shields.io/badge/Data-Visualization-orange)
+![Dashboard](https://img.shields.io/badge/Interactive-Dashboard-success)
+![Analytics](https://img.shields.io/badge/Analytics-Project-red)
+
 ## Overview
 
 A data-driven market intelligence project analyzing India's Electric Vehicle (EV) ecosystem using Python, SQL, Excel, and Power BI. The project transforms raw market and policy data into actionable business insights by identifying growth trends, consumer adoption patterns, battery technology developments, and future investment opportunities.
@@ -31,14 +39,12 @@ India's EV market is expanding rapidly, generating large volumes of industry, po
 
 ## Tech Stack
 
-- Python
-- Pandas
-- NumPy
-- SQL
-- Excel
+- Microsoft Excel
 - Power BI
-- Jupyter Notebook
-- Matplotlib
+- Business Intelligence
+- Data Visualization
+- Market Research
+- Data Analysis
 
 ---
 
