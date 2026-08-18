@@ -5,12 +5,11 @@
 ![Market Research](https://img.shields.io/badge/Market-Research-blue)
 ![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-purple)
 ![Data Visualization](https://img.shields.io/badge/Data-Visualization-orange)
-![Dashboard](https://img.shields.io/badge/Interactive-Dashboard-success)
 ![Analytics](https://img.shields.io/badge/Analytics-Project-red)
 
 ## Overview
 
-A data-driven market intelligence project analyzing India's Electric Vehicle (EV) ecosystem using Python, SQL, Excel, and Power BI. The project transforms raw market and policy data into actionable business insights by identifying growth trends, consumer adoption patterns, battery technology developments, and future investment opportunities.
+A data-driven market intelligence project analyzing India's Electric Vehicle (EV) ecosystem using Python, Excel, and Power BI. The project transforms raw market and policy data into actionable business insights by identifying growth trends, consumer adoption patterns, battery technology developments, and future investment opportunities.
 
 ---
 
@@ -28,23 +27,20 @@ India's EV market is expanding rapidly, generating large volumes of industry, po
 
 ## Objectives
 
-- Analyze India's EV market growth.
-- Study segment-wise adoption (2W, 3W, Passenger Vehicles, Commercial Vehicles).
-- Evaluate government initiatives such as FAME and PLI.
-- Analyze battery technologies and the EV supply chain.
-- Identify investment opportunities and industry challenges.
-- Create interactive dashboards for business decision-making.
+- Analyze India's EV market growth
+- Study segment-wise adoption (2W, 3W, Passenger Vehicles, Commercial Vehicles)
+- Evaluate government initiatives such as FAME and PLI
+- Analyze battery technologies and the EV supply chain
+- Identify investment opportunities and industry challenges
+- Create interactive dashboards for business decision-making
 
 ---
 
 ## Tech Stack
 
-- Microsoft Excel
-- Power BI
-- Business Intelligence
-- Data Visualization
-- Market Research
-- Data Analysis
+- Python (Pandas, NumPy) — data cleaning and exploratory analysis
+- Microsoft Excel — data prep and supporting calculations
+- Power BI — interactive dashboarding
 
 ---
 
@@ -71,42 +67,45 @@ Recommendations
 ## Key Analysis
 
 ### Market Analysis
-
 - EV sales trend analysis
 - Market share analysis
 - CAGR calculation
 - Segment-wise growth
 
 ### Policy Analysis
-
 - FAME Scheme
 - PLI Scheme
 - State EV Policies
 
 ### Battery Ecosystem
-
 - Battery technologies
 - Supply chain
-- Recycling
+- Recycling and second-life applications
 - Circular economy
 
 ### Consumer Insights
-
 - Charging infrastructure
 - Purchase barriers
 - Total Cost of Ownership
 
 ---
 
-## Dashboard
+## Dashboard Preview
 
-Power BI dashboards were created to visualize:
+### Indian EV Market Dashboard
+![Dashboard 1](https://github.com/tanvi01423/EV-Market-Intelligence-Analytics/raw/main/Screenshot%202026-01-01%20162537.png)
 
-- EV sales trends
-- Market share
-- State-wise adoption
-- Battery ecosystem
-- Government policy impact
+### Recovery Rate and Cost Savings on Minerals
+![Dashboard 2](https://github.com/tanvi01423/EV-Market-Intelligence-Analytics/raw/main/Screenshot%202025-12-30%20121105.png)
+
+### Cost Share of Various Components
+![Dashboard 3](https://github.com/tanvi01423/EV-Market-Intelligence-Analytics/raw/main/Screenshot%202025-12-30%20152143.png)
+
+### Profit Margin
+![Dashboard 4](https://github.com/tanvi01423/EV-Market-Intelligence-Analytics/raw/main/Screenshot%202025-12-28%20215916.png)
+
+The full interactive report is available in [`Indian EV Market.pbix`](./Indian%20EV%20Market.pbix) — open with Power BI Desktop.
+The full written report is available in [`EV industry report.pdf`](./EV%20industry%20report.pdf).
 
 ---
 
@@ -114,7 +113,7 @@ Power BI dashboards were created to visualize:
 
 - India's EV market is experiencing rapid growth, led primarily by the two-wheeler and three-wheeler segments.
 - Government incentives significantly influence EV adoption.
-- Charging infrastructure remains one of the major challenges.
+- Charging infrastructure remains one of the major adoption challenges.
 - Battery recycling and second-life applications present substantial business opportunities.
 - Domestic battery manufacturing is expected to reduce import dependency in the future.
 
@@ -125,14 +124,15 @@ Power BI dashboards were created to visualize:
 ```
 EV-Market-Intelligence-Analytics/
 │
-├── data/
-├── notebooks/
-├── dashboard/
-├── reports/
-├── images/
-├── presentation/
+├── python code/              # Python scripts for data cleaning & EDA
+├── report/                   # Supporting report assets
+├── images/                   # Chart/image assets used in the report
+├── EV industry report.pdf    # Full written analysis
+├── Indian EV Market.pbix     # Power BI dashboard file
 └── README.md
 ```
+
+> Note: this reflects the current repo layout. See "Planned Restructuring" below for the cleanup in progress.
 
 ---
 
@@ -143,33 +143,32 @@ EV-Market-Intelligence-Analytics/
 - Data Visualization
 - Business Intelligence
 - Market Research
-- SQL
-- Python
-- Pandas
-- NumPy
+- Python (Pandas, NumPy)
 - Power BI
 - Strategic Decision Making
 
 ---
 
+## Planned Restructuring (in progress)
+
+- [ ] Rename `python code/` → `notebooks/` or `src/` (no spaces in folder names)
+- [ ] Add a `data/` folder with the underlying dataset(s) used for analysis, for reproducibility
+- [ ] Move all screenshots into `images/` with descriptive filenames
+- [ ] Add a `requirements.txt` for the Python environment
+
+---
+
 ## Future Improvements
 
-- EV Sales Forecasting using Machine Learning
-- Customer Sentiment Analysis
-- Battery Demand Prediction
-- Interactive Web Dashboard
+- [ ] EV Sales Forecasting using Machine Learning
+- [ ] Customer Sentiment Analysis
+- [ ] Battery Demand Prediction
+- [ ] Interactive Web Dashboard (see companion repo: [EV-Market-Dashboard-1](https://github.com/tanvi01423/EV-Market-Dashboard-1))
 
-  ## Dashboard Preview
+---
 
-### Indian EV market Dashboard
-![Dashboard 1](Screenshot%202026-01-01%20162537.png)
+## About
 
-### Recovery rate and cost savings on Minerals 
-![Dashboard 2](Screenshot%202025-12-30%20121105.png)
+A data-driven market intelligence project analyzing India's Electric Vehicle ecosystem using Python, Excel, and Power BI to uncover trends, market opportunities, and strategic insights across EV adoption, battery technologies, charging infrastructure, and government policies.
 
-### Cost share of various components
-![Dashboard 3](Screenshot%202025-12-30%20152143.png)
-
-### Profit margin
-![Dashboard 4](Screenshot%202025-12-28%20215916.png)
   
