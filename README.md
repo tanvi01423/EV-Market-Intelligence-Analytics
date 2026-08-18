@@ -108,8 +108,6 @@ Power BI dashboards were created to visualize:
 - Battery ecosystem
 - Government policy impact
 
-(Add dashboard screenshots here later.)
-
 ---
 
 ## Key Insights
