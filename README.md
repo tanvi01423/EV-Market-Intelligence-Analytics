@@ -38,9 +38,26 @@ India's EV market is expanding rapidly, generating large volumes of industry, po
 
 ## Tech Stack
 
-- Python (Pandas, NumPy) — data cleaning and exploratory analysis
+- Python (Pandas, NumPy, Matplotlib, Seaborn) — data cleaning and exploratory analysis
+- Jupyter Notebook — analysis workflow
 - Microsoft Excel — data prep and supporting calculations
 - Power BI — interactive dashboarding
+
+## Data Sources
+
+- India's EV registrations by vehicle category, 2001–2024 (monthly) — [Kaggle](https://www.kaggle.com/datasets/srinrealyf/india-ev-market-data)
+- EV sales by manufacturer and category, 2015–2024 — Kaggle
+- Statewise EV charging infrastructure — compiled for this project's Power BI dashboard
+- Operational public charging stations by state — Kaggle
+
+## Running the Notebooks
+
+```bash
+git clone https://github.com/tanvi01423/EV-Market-Intelligence-Analytics.git
+cd EV-Market-Intelligence-Analytics
+pip install -r requirements.txt
+jupyter notebook notebooks/01_data_cleaning_eda.ipynb
+```
 
 ---
 
@@ -124,15 +141,24 @@ The full written report is available in [`EV industry report.pdf`](./EV%20indust
 ```
 EV-Market-Intelligence-Analytics/
 │
-├── python code/              # Python scripts for data cleaning & EDA
+├── notebooks/                          # Python analysis
+│   └── 01_data_cleaning_eda.ipynb      # Data cleaning + exploratory data analysis
+│
+├── data/                                # Datasets used in the analysis
+│   ├── statewise_ev_charging_infrastructure.csv
+│   ├── ev_cat_01-24.csv                # Monthly EV registrations by category, 2001-2024
+│   ├── ev_sales_by_makers_and_cat_15-24.csv
+│   ├── OperationalPC.csv               # Operational public charging stations by state
+│   ├── ev_maker_by_place.csv
+│   └── clean_*.csv                     # Cleaned outputs from the EDA notebook
+│
 ├── report/                   # Supporting report assets
 ├── images/                   # Chart/image assets used in the report
 ├── EV industry report.pdf    # Full written analysis
 ├── Indian EV Market.pbix     # Power BI dashboard file
+├── requirements.txt          # Python dependencies to run the notebooks
 └── README.md
 ```
-
-> Note: this reflects the current repo layout. See "Planned Restructuring" below for the cleanup in progress.
 
 ---
 
@@ -149,12 +175,13 @@ EV-Market-Intelligence-Analytics/
 
 ---
 
-## Planned Restructuring (in progress)
+## Planned Restructuring
 
-- [ ] Rename `python code/` → `notebooks/` or `src/` (no spaces in folder names)
-- [ ] Add a `data/` folder with the underlying dataset(s) used for analysis, for reproducibility
+- [x] Rename `python code/` → `notebooks/` (no spaces in folder names)
+- [x] Add a `data/` folder with the underlying dataset(s) used for analysis, for reproducibility
+- [x] Add a `requirements.txt` for the Python environment
 - [ ] Move all screenshots into `images/` with descriptive filenames
-- [ ] Add a `requirements.txt` for the Python environment
+- [ ] Add `02_sales_forecasting_model.ipynb` (in progress)
 
 ---
 
@@ -164,6 +191,13 @@ EV-Market-Intelligence-Analytics/
 - [ ] Customer Sentiment Analysis
 - [ ] Battery Demand Prediction
 - [ ] Interactive Web Dashboard (see companion repo: [EV-Market-Dashboard-1](https://github.com/tanvi01423/EV-Market-Dashboard-1))
+
+---
+
+## About
+
+A data-driven market intelligence project analyzing India's Electric Vehicle ecosystem using Python, Excel, and Power BI to uncover trends, market opportunities, and strategic insights across EV adoption, battery technologies, charging infrastructure, and government policies.
+
 
 ---
 
